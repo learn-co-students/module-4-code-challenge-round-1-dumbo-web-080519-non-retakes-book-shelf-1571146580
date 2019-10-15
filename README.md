@@ -17,7 +17,7 @@ npm install
 npm start
 ```
 
-## Deliverables
+<!-- ## Deliverables
 
 1. Fetch to `http://localhost:3005/books`. You should get a response that is an array of multiple book objects that look like this:
 ```
@@ -29,7 +29,7 @@ npm start
 }
 ```
 
-2. Render a list of books that show the book title and book image in the Book List
+2. Render a list of books that show the book title and book image in the Book List -->
 3. Clicking on a book in the Book List should add it to the Bookshelf
 4. Clicking on a book in the Bookshelf should remove it from the Bookshelf
 5. Create a controlled form that allows the user to add a book to the Book List (this should _NOT_ persist)
