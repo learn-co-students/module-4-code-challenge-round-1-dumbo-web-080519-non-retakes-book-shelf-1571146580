@@ -1,10 +1,10 @@
 import React from "react";
 
-const Book = props => {
+const Book = ({ book, handleClick }) => {
   return (
-    <div>
-      <h2>{/*book title*/}</h2>
-      {/*book img*/}
+    <div onClick = { () => handleClick(book) }>
+      <h2>{ book.title }</h2>
+      <img src={ book.img } alt={ book.title }/>
     </div>
   );
 };
