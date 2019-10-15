@@ -2,7 +2,13 @@ import React from "react";
 
 class Form extends React.Component {
   render() {
-    return <h1>{/*create form*/}</h1>;
+    console.log("hey")
+    return <form>
+      <input onChange={this.props.handleChange} type="text" placeholder="title"/>
+      <input onChange={this.props.handleChange} type="text" placeholder="author"/>
+      <input onChange={this.props.handleChange} type="text" placeholder="img"/>
+      <input type="submit"/>
+    </form>;
   }
 }
 
