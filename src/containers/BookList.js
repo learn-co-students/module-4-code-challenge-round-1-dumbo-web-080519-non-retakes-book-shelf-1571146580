@@ -8,7 +8,7 @@ class BookList extends Component {
       <div className="book-list">
         <h1>Book List</h1>
         <Form />
-        <ul>{/*render list of books here*/}</ul>
+        <ul>{/*render list of books here*/this.props}</ul>
       </div>
     );
   }
