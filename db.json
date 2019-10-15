@@ -47,6 +47,22 @@
       "title": "We Should All Be Feminists",
       "author": "Chimamanda Ngozi Adichie",
       "img": "https://images-na.ssl-images-amazon.com/images/I/51L9u20bC7L._SX348_BO1,204,203,200_.jpg"
+    },
+    {
+      "newBook": {
+        "title": "testing",
+        "author": "testing",
+        "img": "https://upload.wikimedia.org/wikipedia/en/thumb/6/63/IMG_%28business%29.svg/1200px-IMG_%28business%29.svg.png"
+      },
+      "id": 9
+    },
+    {
+      "newBook": {
+        "title": "testqtes",
+        "author": "test",
+        "img": "https://upload.wikimedia.org/wikipedia/en/thumb/6/63/IMG_%28business%29.svg/1200px-IMG_%28business%29.svg.png"
+      },
+      "id": 10
     }
   ]
 }
