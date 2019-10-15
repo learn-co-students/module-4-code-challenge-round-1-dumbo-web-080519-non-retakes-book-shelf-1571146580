@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import "./App.css";
 import BookList from "./containers/BookList";
 import Bookshelf from "./containers/Bookshelf";
@@ -26,7 +26,7 @@ class App extends Component {
   addBook = (book) => {
     if(!this.state.bookshelf.includes(book)){
       this.setState({
-        bookshelf: [...this.state.bookshelf, book]
+        bookshelf: [book, ...this.state.bookshelf]
       })
     }
   }
@@ -45,9 +45,7 @@ class App extends Component {
         'Content-Type': 'application/json',
         'Accept': 'application/json'
       },
-      body: JSON.stringify({
-        book
-      })
+      body: JSON.stringify(book)
     }
 
     fetch(url, config)
